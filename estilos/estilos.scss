@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import "general";
+@import "footer";
+@import "header";
+@import "index";
+@import "bestiario+artefactos+historias";
+@import "contacto";
+
+
+// Set-ExecutionPolicy Unrestricted
+// sass --watch estilos.scss estilos.css
+// sass --watch estilos/estilos.scss estilos/estilos.css

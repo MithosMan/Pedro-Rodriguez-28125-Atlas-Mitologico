@@ -1,0 +1,33 @@
+footer{
+    text-align: center; 
+    width: 100vw;
+    background-color: white;
+    margin-top: 20px;
+
+    div {
+        padding-bottom: 5px;
+        padding-top: 15px;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+    }
+
+    ul {
+        color:none;
+        font-size: 90%;
+        line-height: 2;
+        text-decoration: none;
+        padding-top: 10px;
+
+        li {
+            display: inline;
+            border: none;
+            margin-top:10px;
+            border: 2px solid rgb(0, 0, 0);
+            padding-right: 2px;
+            padding-left: 2px;
+            background-color: none;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+        }
+    }
+}
