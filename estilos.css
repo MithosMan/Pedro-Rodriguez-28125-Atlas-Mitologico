@@ -525,7 +525,11 @@ header ul .menu {
 }
 
 .seccion__img--bestia16 {
+<<<<<<< HEAD
   background-image: url(img/b16.jpg);
+=======
+  background-image: url(.img/b16.jpg);
+>>>>>>> 21103ea1cf6510a3bb7462405a0dcf1c4f941a76
 }
 
 .seccion__img--bestia17 {
