@@ -237,7 +237,7 @@ header ul .menu {
     grid-gap: 10px;
   }
   .index-img1 {
-    background-image: url(../img/hipolita.jpg);
+    background-image: url(img/hipolita.jpg);
     background-position: center;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
@@ -247,7 +247,7 @@ header ul .menu {
     grid-row: 1/3;
   }
   .index-img2 {
-    background-image: url(../img/toro-creta.jpg);
+    background-image: url(img/toro-creta.jpg);
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
@@ -256,7 +256,7 @@ header ul .menu {
     grid-row: 1/2;
   }
   .index-img3 {
-    background-image: url(../img/jabali-erimanto-banner.jpg);
+    background-image: url(img/jabali-erimanto-banner.jpg);
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
@@ -265,7 +265,7 @@ header ul .menu {
     grid-row: 2/3;
   }
   .index-img4 {
-    background-image: url(../img/establo-augias.jpg);
+    background-image: url(img/establo-augias.jpg);
     background-position: center;
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
@@ -303,7 +303,7 @@ header ul .menu {
     border-radius: 5px;
   }
   .contenedor__slide--new1 {
-    background-image: url(../img/manzana-hesperides.jpg);
+    background-image: url(img/manzana-hesperides.jpg);
     background-size: cover;
     -webkit-animation-name: slide;
             animation-name: slide;
@@ -316,7 +316,7 @@ header ul .menu {
     z-index: 2;
   }
   .contenedor__slide--new2 {
-    background-image: url(../img/hidra-lerna.jpg);
+    background-image: url(img/hidra-lerna.jpg);
     background-size: cover;
     -webkit-animation-name: slide;
             animation-name: slide;
@@ -331,7 +331,7 @@ header ul .menu {
     z-index: 1;
   }
   .contenedor__slide--new3 {
-    background-image: url(../img/yeguas-diomedes.jpg);
+    background-image: url(img/yeguas-diomedes.jpg);
     background-size: cover;
     -webkit-animation-name: slide;
             animation-name: slide;
@@ -369,7 +369,7 @@ header ul .menu {
     background-size: cover;
   }
   .index-img1 {
-    background-image: url(../img/hipolita-cel.jpg);
+    background-image: url(img/hipolita-cel.jpg);
     background-position: center;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
@@ -379,7 +379,7 @@ header ul .menu {
     grid-row: 1/2;
   }
   .index-img2 {
-    background-image: url(../img/toro-creta-cel.jpg);
+    background-image: url(img/toro-creta-cel.jpg);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -388,7 +388,7 @@ header ul .menu {
     grid-row: 2/3;
   }
   .index-img3 {
-    background-image: url(../img/jabali-erimanto-cel.jpg);
+    background-image: url(img/jabali-erimanto-cel.jpg);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -397,7 +397,7 @@ header ul .menu {
     grid-row: 3/4;
   }
   .index-img4 {
-    background-image: url(../img/establo-augias-cel.jpg);
+    background-image: url(img/establo-augias-cel.jpg);
     background-position: center;
     text-align: left;
     -ms-grid-column: 1;
@@ -423,7 +423,7 @@ header ul .menu {
     border-radius: 5px;
   }
   .contenedor__slide--new1 {
-    background-image: url(../img/manzana-hesperides.jpg);
+    background-image: url(img/manzana-hesperides.jpg);
     background-size: cover;
     -webkit-animation-name: slide;
             animation-name: slide;
@@ -436,7 +436,7 @@ header ul .menu {
     z-index: 2;
   }
   .contenedor__slide--new2 {
-    background-image: url(../img/hidra-lerna.jpg);
+    background-image: url(img/hidra-lerna.jpg);
     background-size: cover;
     -webkit-animation-name: slide;
             animation-name: slide;
@@ -451,7 +451,7 @@ header ul .menu {
     z-index: 1;
   }
   .contenedor__slide--new3 {
-    background-image: url(../img/yeguas-diomedes.jpg);
+    background-image: url(img/yeguas-diomedes.jpg);
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
     -webkit-animation-duration: all 9s;
@@ -465,123 +465,123 @@ header ul .menu {
 }
 
 .seccion__img--bestia1 {
-  background-image: url(../img/b1.jpg);
+  background-image: url(img/b1.jpg);
 }
 
 .seccion__img--bestia2 {
-  background-image: url(../img/b2.jpg);
+  background-image: url(img/b2.jpg);
 }
 
 .seccion__img--bestia3 {
-  background-image: url(../img/b3.jpg);
+  background-image: url(img/b3.jpg);
 }
 
 .seccion__img--bestia4 {
-  background-image: url(../img/b4.jpg);
+  background-image: url(img/b4.jpg);
 }
 
 .seccion__img--bestia5 {
-  background-image: url(../img/b5.jpg);
+  background-image: url(img/b5.jpg);
 }
 
 .seccion__img--bestia6 {
-  background-image: url(../img/b6.jpg);
+  background-image: url(img/b6.jpg);
 }
 
 .seccion__img--bestia7 {
-  background-image: url(../img/b7.jpg);
+  background-image: url(img/b7.jpg);
 }
 
 .seccion__img--bestia8 {
-  background-image: url(../img/b8.jpg);
+  background-image: url(img/b8.jpg);
 }
 
 .seccion__img--bestia9 {
-  background-image: url(../img/b9.jpg);
+  background-image: url(img/b9.jpg);
 }
 
 .seccion__img--bestia10 {
-  background-image: url(../img/b10.jpg);
+  background-image: url(img/b10.jpg);
 }
 
 .seccion__img--bestia11 {
-  background-image: url(../img/b11.jpg);
+  background-image: url(img/b11.jpg);
 }
 
 .seccion__img--bestia12 {
-  background-image: url(../img/b12.jpg);
+  background-image: url(img/b12.jpg);
 }
 
 .seccion__img--bestia13 {
-  background-image: url(../img/b13.jpg);
+  background-image: url(img/b13.jpg);
 }
 
 .seccion__img--bestia14 {
-  background-image: url(../img/b14.jpg);
+  background-image: url(img/b14.jpg);
 }
 
 .seccion__img--bestia15 {
-  background-image: url(../img/b15.jpg);
+  background-image: url(img/b15.jpg);
 }
 
 .seccion__img--bestia16 {
-  background-image: url(../img/b16.jpg);
+  background-image: url(img/b16.jpg);
 }
 
 .seccion__img--bestia17 {
-  background-image: url(../img/b17.jpg);
+  background-image: url(img/b17.jpg);
 }
 
 .seccion__img--bestia18 {
-  background-image: url(../img/b18.jpg);
+  background-image: url(img/b18.jpg);
 }
 
 .seccion__img--bestia19 {
-  background-image: url(../img/b19.jpg);
+  background-image: url(img/b19.jpg);
 }
 
 .seccion__img--bestia20 {
-  background-image: url(../img/b20.jpg);
+  background-image: url(img/b20.jpg);
 }
 
 .seccion__img--obj1 {
-  background-image: url(../img/o1.jpg);
+  background-image: url(img/o1.jpg);
 }
 
 .seccion__img--obj2 {
-  background-image: url(../img/o2.jpg);
+  background-image: url(img/o2.jpg);
 }
 
 .seccion__img--obj3 {
-  background-image: url(../img/o3.jpg);
+  background-image: url(img/o3.jpg);
 }
 
 .seccion__img--obj4 {
-  background-image: url(../img/o4.jpg);
+  background-image: url(img/o4.jpg);
 }
 
 .seccion__img--obj5 {
-  background-image: url(../img/o5.jpg);
+  background-image: url(img/o5.jpg);
 }
 
 .seccion__img--obj6 {
-  background-image: url(../img/o6.jpg);
+  background-image: url(img/o6.jpg);
 }
 
 .seccion__img--obj7 {
-  background-image: url(../img/o7.jpg);
+  background-image: url(img/o7.jpg);
 }
 
 .seccion__img--obj8 {
-  background-image: url(../img/o8.jpg);
+  background-image: url(img/o8.jpg);
 }
 
 .seccion__img--obj9 {
-  background-image: url(../img/o9.jpg);
+  background-image: url(img/o9.jpg);
 }
 
 .seccion__img--obj10 {
-  background-image: url(../img/o10.jpg);
+  background-image: url(img/o10.jpg);
 }
 
 .seccion__tarjeta--bestia {
@@ -624,7 +624,7 @@ header ul .menu {
   }
   .event-img1 {
     border-radius: 4px;
-    background-image: url(../img/heracles.jpg);
+    background-image: url(img/heracles.jpg);
     background-size: cover;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
@@ -747,7 +747,7 @@ header ul .menu {
     width: 80vw;
     height: 60vw;
     border-radius: 4px;
-    background-image: url(../img/heracles.jpg);
+    background-image: url(img/heracles.jpg);
     background-size: cover;
   }
   .event-text {
