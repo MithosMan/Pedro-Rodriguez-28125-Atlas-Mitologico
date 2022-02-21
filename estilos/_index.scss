@@ -58,6 +58,7 @@
 .index-img {
     border-radius: 5px;
     text-transform: uppercase;
+    color: white;
     font-weight: bold;
     font-family: sans-serif;
     background-size: cover;
@@ -91,7 +92,7 @@ background-image: url(../img/manzana-hesperides.jpg);
 background-size: cover;
 animation-name: slide;
 animation-iteration-count: infinite;
-animation-duration: 9s;
+animation-duration: 12s;
 animation-delay: 0s;
 z-index: 2;
 }
@@ -101,8 +102,8 @@ background-image: url(../img/hidra-lerna.jpg);
 background-size: cover;
 animation-name: slide;
 animation-iteration-count: infinite;
-animation-duration: 9s;
-animation-delay: 3s;
+animation-duration: 12s;
+animation-delay: 4s;
 position: relative;
 bottom: 230px;
 z-index: 1;
@@ -113,12 +114,27 @@ background-image: url(../img/yeguas-diomedes.jpg);
 background-size: cover;
 animation-name: slide;
 animation-iteration-count: infinite;
-animation-duration: 9s;
-animation-delay: 6s;
+animation-duration: 12s;
+animation-delay: 8s;
 position: relative;
 bottom: 460px;
 z-index: 0;
 }
+
+// .contenedor__botonera {
+//     display: flex;
+//     flex-direction: row;
+
+// }
+
+// .botonera__boton {
+//     width: 15px;
+//     height: 15px;
+//     border-radius: 50%;
+//     background-color: cadetblue;
+//     margin: 8px
+// }
+
 }
 
 @media only screen and (max-width: 750px) { 
