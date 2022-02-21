@@ -11,19 +11,23 @@
 </head>
 <body>
     <header>
-        <div><img class="logo" src="img/atlas.png" alt="logo">
-            
-            <h1><a href="index.html" class="neutralizar">Atlas<br/>mitologico</a></h1>
-            </div>
-            <ul class="menu-ppal neutralizar">
-                <!-- <li class="menu menu1"></li> -->
-                <li class="menu menu2"><a href="bestiario.html">Bestiario</a></li>
-                <li class="menu menu3"><a href="historias.html">Historias</a></li>
-                <li class="menu menu4"><a href="artefactos.html">Artefactos</a></li>
-                <li class="menu menu5"><a href="contacto.html">Contacto</a></li>
-                <!-- <li class="menu"><input class="night-mode" type="checkbox"/> Modo Nocturno</div></li> -->
-            </ul>
-    </header>
+        <header>
+            <div><img class="logo" src="img/atlas.png" alt="logo">
+                
+                <h1><a href="index.html" class="neutralizar">Atlas<br/>mitologico</a></h1>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown__boton"></button>
+                    <div class="dropdown-panel">
+                      <a href="bestiario.html">Bestiario</a>
+                      <a href="historias.html">Historias</a>
+                      <a href="artefactos.html">Artefactos</a>
+                      <a href="contacto.html">Contacto</a>
+                    </div>
+                  </div>
+    
+        </header>
+<div class="contacto--flex">
     <h2>Contacto</h2>
     <form class="subscripcion">
         <div><label for="name">Nombre:</label>
@@ -49,7 +53,7 @@
         <input type="checkbox" name="Acepto" value="1"/></div>
         <div><input type="reset" value="Borrar Info"/> <input type="button" value="Enviar"/></div>
     </form>
-
+</div>
     <footer>
         <ul class="neutralizar">
             <li><a href="">Facebook</a></li>
