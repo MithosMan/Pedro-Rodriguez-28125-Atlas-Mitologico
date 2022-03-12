@@ -30,9 +30,9 @@
 
 $secciones: (
     bestia: rgba(130, 149, 255, 0.959),
-    obj: rgb(214, 179, 126),
-    place: blue,
-    person: yellow,
+    obj: rgb(247, 201, 133),
+    place: rgb(255, 184, 77),
+    person: rgba(130, 149, 199, 0.959),
 );
 
 @each $seccion, $color in $secciones {
@@ -214,6 +214,7 @@ $secciones: (
             height: auto;
             overflow: hidden;
             background-color: rgb(230, 230, 230);
+            transform: translate(-205px, 180px);
             p {
                 padding: 5px;
                 text-align: center;

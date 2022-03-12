@@ -107,6 +107,7 @@ $cantidadbanner: 5;
     background-size: cover;
     background-position-x: center;
     margin: $space;
+    margin-bottom: 30px;
 }
 
 .contenedor__slide:hover {
@@ -115,28 +116,28 @@ $cantidadbanner: 5;
 }
 
 .contenedor__slide--new1 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../img/A.png);
 }
 
 .contenedor__slide--new2 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../img/B.png);
 }
 
 .contenedor__slide--new3 {
-    background-color: brown;
-    background-image: url(../img/C.png);
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../img/C.png);
 }
 
 .contenedor__slide--new4 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../img/B.png);
 }
 
 .contenedor__slide--new5 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    background-color: rgb(255, 255, 255);
+    // background-image: url(../img/A.png);
 }
 
 }

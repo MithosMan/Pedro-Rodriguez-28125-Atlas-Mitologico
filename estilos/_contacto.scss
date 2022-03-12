@@ -2,11 +2,19 @@
     display: flex;
     flex-direction: column;
 
+.texto__contacto {
+    border: 1px solid #000000;
+    border-radius: $space;
+    margin: $space;
+    padding: $space;
+    width: 380px;
+}
+
 form {
     background-color: #e4745d;
-    border-radius: 4px;
-    margin: 5px;
-    padding: 3px;
+    border-radius: $space;
+    margin: $space;
+    padding: $space;
     width: 400px;
     float:none;
     position:sticky;

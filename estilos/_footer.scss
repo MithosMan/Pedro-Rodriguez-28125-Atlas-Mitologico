@@ -3,7 +3,28 @@ footer{
     width: 100vw;
     height: auto;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 35px;
+
+    .fondo__footer {
+        width: 100vw;
+        height: 4px;
+        background-color: rgb(226, 226, 226);
+        margin-top: 10px;
+    }
+
+    .fondo__footer1 {
+        width: 100vw;
+        height: 6px;
+        background-color: rgb(226, 226, 226);
+        margin-top: 7px;
+    }
+    
+    .fondo__footer2 {
+        width: 100vw;
+        height: 8px;
+        background-color: rgb(226, 226, 226);
+        margin-top: 4px;
+    }
 
     div {
         padding-bottom: 5px;
@@ -18,6 +39,7 @@ footer{
         line-height: 2;
         text-decoration: none;
         padding-top: 10px;
+        margin-top: 30px;
 
         li {
             display: inline;

@@ -45,7 +45,7 @@ h2 {
   font-weight: bold;
   font-family: sans-serif;
   margin: 10px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -80,7 +80,28 @@ footer {
   width: 100vw;
   height: auto;
   background-color: white;
-  margin-top: 20px;
+  margin-top: 35px;
+}
+
+footer .fondo__footer {
+  width: 100vw;
+  height: 4px;
+  background-color: #e2e2e2;
+  margin-top: 10px;
+}
+
+footer .fondo__footer1 {
+  width: 100vw;
+  height: 6px;
+  background-color: #e2e2e2;
+  margin-top: 7px;
+}
+
+footer .fondo__footer2 {
+  width: 100vw;
+  height: 8px;
+  background-color: #e2e2e2;
+  margin-top: 4px;
 }
 
 footer div {
@@ -96,6 +117,7 @@ footer ul {
   line-height: 2;
   text-decoration: none;
   padding-top: 10px;
+  margin-top: 30px;
 }
 
 footer ul li {
@@ -352,6 +374,7 @@ header div {
     background-size: cover;
     background-position-x: center;
     margin: 3px;
+    margin-bottom: 30px;
   }
   .contenedor__slide:hover {
     -ms-flex-negative: 0.2;
@@ -360,24 +383,19 @@ header div {
             transition-duration: 0.5s;
   }
   .contenedor__slide--new1 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    background-color: white;
   }
   .contenedor__slide--new2 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    background-color: white;
   }
   .contenedor__slide--new3 {
-    background-color: brown;
-    background-image: url(../img/C.png);
+    background-color: white;
   }
   .contenedor__slide--new4 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    background-color: white;
   }
   .contenedor__slide--new5 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    background-color: white;
   }
 }
 
@@ -913,15 +931,15 @@ header div {
 }
 
 .seccion__tarjeta--obj {
-  background-color: #d6b37e;
+  background-color: #f7c985;
 }
 
 .seccion__tarjeta--place {
-  background-color: blue;
+  background-color: #ffb84d;
 }
 
 .seccion__tarjeta--person {
-  background-color: yellow;
+  background-color: rgba(130, 149, 199, 0.959);
 }
 
 @media only screen and (min-width: 750px) {
@@ -1126,6 +1144,8 @@ header div {
     height: auto;
     overflow: hidden;
     background-color: #e6e6e6;
+    -webkit-transform: translate(-205px, 180px);
+            transform: translate(-205px, 180px);
   }
   .seccion__tarjeta:hover .seccion__oculto p {
     padding: 5px;
@@ -1167,10 +1187,18 @@ header div {
           flex-direction: column;
 }
 
+.contacto--flex .texto__contacto {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 3px;
+  width: 380px;
+}
+
 .contacto--flex form {
   background-color: #e4745d;
-  border-radius: 4px;
-  margin: 5px;
+  border-radius: 3px;
+  margin: 3px;
   padding: 3px;
   width: 400px;
   float: none;
