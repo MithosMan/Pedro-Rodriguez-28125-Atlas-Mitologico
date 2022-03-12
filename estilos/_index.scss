@@ -30,33 +30,38 @@
 }
 
 .index-img1 {
-    background-image: url(../img/hipolita.jpg);
+    background-color: #ffffff;
+    // background-image: url();
     background-position: center;
     grid-column: 1/2;
     grid-row: 1/3;
+    
 }
     
 .index-img2 {
-    background-image: url(../img/toro-creta.jpg);
+    background-color: #ffffff;
+    // background-image: url();
     grid-column: 2/4;
     grid-row: 1/2;
 }
     
 .index-img3 {
-    background-image: url(../img/jabali-erimanto-banner.jpg);
+    background-color: #ffffff;
+    // background-image: url();
     grid-column: 2/4;
     grid-row: 2/3;
 }
     
 .index-img4 {
-    background-image: url(../img/establo-augias.jpg);
+    background-color: #ffffff;
+    // background-image: url();
     background-position: center;
     grid-column: 4/5;
     grid-row: 1/3;
 }
 
 .index-img {
-    border-radius: 5px;
+    border-radius: $radius;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
@@ -69,71 +74,70 @@
     transition-duration: 0.7s;
 }
 
-/* Código para "Recientemente agregados" */
-  
+// Banner de Novedades
+
+$altobanner: 35vh;
+$anchobanner: $altobanner*2.5;
+$cantidadbanner: 5;
+
+.fondobanner {
+    width: 100vw;
+    height: $altobanner*0.95;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contenedor {
-    width: 504px;
-    height: 230px;
-    position: relative;
-    border: none;
-    overflow: hidden;
-    text-align-last: left;
-    font-size: 20px;
+    width: $anchobanner;
+    height: $altobanner;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .contenedor__slide {
-    width: 500px;
-    height: 230px;
-    border-radius: 5px;
+    transform: skewX(-15deg);
+    width: $altobanner*1.8;
+    border-radius: $radius;
+    height: inherit;
+    background-size: cover;
+    background-position-x: center;
+    margin: $space;
+}
+
+.contenedor__slide:hover {
+    flex-shrink: 0.2;
+    transition-duration: 0.5s;
 }
 
 .contenedor__slide--new1 {
-background-image: url(../img/manzana-hesperides.jpg);
-background-size: cover;
-animation-name: slide;
-animation-iteration-count: infinite;
-animation-duration: 12s;
-animation-delay: 0s;
-z-index: 2;
+    background-color: brown;
+    background-image: url(../img/A.png);
 }
 
 .contenedor__slide--new2 {
-background-image: url(../img/hidra-lerna.jpg);
-background-size: cover;
-animation-name: slide;
-animation-iteration-count: infinite;
-animation-duration: 12s;
-animation-delay: 4s;
-position: relative;
-bottom: 230px;
-z-index: 1;
+    background-color: brown;
+    background-image: url(../img/B.png);
 }
 
 .contenedor__slide--new3 {
-background-image: url(../img/yeguas-diomedes.jpg);
-background-size: cover;
-animation-name: slide;
-animation-iteration-count: infinite;
-animation-duration: 12s;
-animation-delay: 8s;
-position: relative;
-bottom: 460px;
-z-index: 0;
+    background-color: brown;
+    background-image: url(../img/C.png);
 }
 
-// .contenedor__botonera {
-//     display: flex;
-//     flex-direction: row;
+.contenedor__slide--new4 {
+    background-color: brown;
+    background-image: url(../img/B.png);
+}
 
-// }
-
-// .botonera__boton {
-//     width: 15px;
-//     height: 15px;
-//     border-radius: 50%;
-//     background-color: cadetblue;
-//     margin: 8px
-// }
+.contenedor__slide--new5 {
+    background-color: brown;
+    background-image: url(../img/A.png);
+}
 
 }
 
@@ -158,81 +162,101 @@ z-index: 0;
         }
         
         .index-img1 {
-            background-image: url(../img/hipolita-cel.jpg);
+            background-color: #ffffff;
+            // background-image: url();
             background-position: center;
             grid-column: 1/2;
             grid-row: 1/2;
         }
         
         .index-img2 {
-            background-image: url(../img/toro-creta-cel.jpg);
+            background-color: #ffffff;
+            // background-image: url();
             grid-column: 1/2;
             grid-row: 2/3;
         }
         
         .index-img3 {
-            background-image: url(../img/jabali-erimanto-cel.jpg);
+            background-color: #ffffff;
+            // background-image: url();
             grid-column: 1/2;
             grid-row: 3/4;
          
         }
         
         .index-img4 {
-            background-image: url(../img/establo-augias-cel.jpg);
+            background-color: #ffffff;
+            // background-image: url();
             background-position: center;
             text-align: left;
             grid-column: 1/2;
             grid-row: 4/5;
         }
 
-/* Código para "Recientemente agregados" */
+
+// Banner de Novedades
+
+$anchobanner: 90vw;
+$altobanner: $anchobanner/2.5;
+$cantidadbanner: 5;
+
+.fondobanner {
+    width: 100vw;
+    height: $altobanner*0.95;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .contenedor {
-    width: 504px;
-    height: 230px;
-    position: relative;
-    border: none;
-    overflow: hidden;
-    text-align-last: left;
-    font-size: 20px;
+    width: $anchobanner;
+    height: $altobanner;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .contenedor__slide {
-    width: 80vw;
-    height: 36.8vw;
-    border-radius: 5px;
+    transform: skewX(-15deg);
+    width: $altobanner*1.8;
+    border-radius: $radius;
+    height: inherit;
+    background-size: cover;
+    background-position-x: center;
+    margin: $space;
+}
+
+.contenedor__slide:hover {
+    flex-shrink: 0.2;
+    transition-duration: 0.5s;
 }
 
 .contenedor__slide--new1 {
-background-image: url(../img/manzana-hesperides.jpg);
-background-size: cover;
-animation-name: slide;
-animation-iteration-count: infinite;
-animation-duration: all 9s;
-animation-delay: all 0s;
-z-index: 2;
+    background-color: brown;
+    background-image: url(../img/A.png);
 }
 
 .contenedor__slide--new2 {
-background-image: url(../img/hidra-lerna.jpg);
-background-size: cover;
-animation-name: slide;
-animation-iteration-count: infinite;
-animation-duration: all 9s;
-animation-delay: all 3s;
-position: relative;
-bottom: 36.8vw;
-z-index: 1;
+    background-color: brown;
+    background-image: url(../img/B.png);
 }
 
 .contenedor__slide--new3 {
-background-image: url(../img/yeguas-diomedes.jpg);
-animation-iteration-count: infinite;
-animation-duration: all 9s;
-animation-delay: all 6s;
-position: relative;
-bottom: 73.6vw;
-z-index: 0;
+    background-color: brown;
+    background-image: url(../img/C.png);
+}
+
+.contenedor__slide--new4 {
+    background-color: brown;
+    background-image: url(../img/B.png);
+}
+
+.contenedor__slide--new5 {
+    background-color: brown;
+    background-image: url(../img/A.png);
 }
 
 }
