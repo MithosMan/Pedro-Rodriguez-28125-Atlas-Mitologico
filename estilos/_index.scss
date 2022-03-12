@@ -37,6 +37,7 @@
     font-family: sans-serif;
     background-size: cover;
     background-position: center;
+    border: 2px solid $colorA;
 }
 
 .index-img1 {
@@ -110,6 +111,10 @@ $cantidadbanner: 5;
     background-position-x: center;
     margin: $space;
     margin-bottom: 30px;
+    border: 2px solid $colorA;
+    a p{
+        color: $colorB;
+    }
 }
 
 .contenedor__slide:hover {
@@ -120,6 +125,7 @@ $cantidadbanner: 5;
 .contenedor__slide--new1 {
     background-color: rgb(255, 255, 255);
     background-image: url(../img/banner1.jpg);
+    vertical-align: text-bottom;
 }
 
 .contenedor__slide--new2 {

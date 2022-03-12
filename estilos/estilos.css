@@ -24,17 +24,19 @@ body {
   background-color: #e2e2e2;
 }
 
-h1 {
-  color: #000000;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: sans-serif;
-  margin: 10px;
-  display: inline;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media only screen and (min-width: 750px) {
+  h1 {
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px;
+    display: inline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 h2 {
@@ -46,6 +48,21 @@ h2 {
   font-family: sans-serif;
   margin: 10px;
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 5px;
+    display: inline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 h3 {
@@ -68,6 +85,15 @@ h4 {
 
 .neutralizar, .neutralizar a:hover, .neutralizar a:visited, .neutralizar a:link, .neutralizar a:active {
   color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.neutralizar2, .neutralizar2 a:hover, .neutralizar2 a:visited, .neutralizar2 a:link, .neutralizar2 a:active {
+  color: #912b2b;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -226,10 +252,6 @@ header div {
   z-index: 4;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
 .fondo__body {
   background-color: #ffffff;
   margin-top: 5px;
@@ -300,6 +322,7 @@ header div {
     font-family: sans-serif;
     background-size: cover;
     background-position: center;
+    border: 2px solid #6c020daf;
   }
   .index-img1 {
     background-color: #ffffff;
@@ -389,6 +412,10 @@ header div {
     background-position-x: center;
     margin: 5px;
     margin-bottom: 30px;
+    border: 2px solid #6c020daf;
+  }
+  .contenedor__slide a p {
+    color: #91031D;
   }
   .contenedor__slide:hover {
     -ms-flex-negative: 0.2;
@@ -399,6 +426,7 @@ header div {
   .contenedor__slide--new1 {
     background-color: white;
     background-image: url(../img/banner1.jpg);
+    vertical-align: text-bottom;
   }
   .contenedor__slide--new2 {
     background-color: white;

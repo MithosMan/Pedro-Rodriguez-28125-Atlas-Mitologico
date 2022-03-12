@@ -8,6 +8,7 @@ body{
     background-color: rgb(226, 226, 226);
 }
 
+@media only screen and (min-width: 750px) { 
 h1 {
     color: #000000;
     text-align: center;
@@ -17,7 +18,8 @@ h1 {
     margin: 10px;
     display: inline;
     align-items: center;
-}
+}}
+
 
 h2 {
     color: rgb(0, 0, 0);
@@ -29,6 +31,18 @@ h2 {
     margin: 10px;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 750px) { 
+    h1 {
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin: 5px;
+        display: inline;
+        align-items: center;
+    }}
 
 h3 {
     font-size: 18px;
@@ -71,4 +85,29 @@ h4 {
 
 .neutralizar a:active {
     @extend .neutralizar;
+}
+
+.neutralizar2 {
+    color: $colorD;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.neutralizar2 a:hover {
+    @extend .neutralizar2;
+}
+
+.neutralizar2 a:visited {
+    @extend .neutralizar2;
+}
+
+.neutralizar2 a:link {
+    @extend .neutralizar2;
+}
+
+.neutralizar2 a:active {
+    @extend .neutralizar2;
 }
