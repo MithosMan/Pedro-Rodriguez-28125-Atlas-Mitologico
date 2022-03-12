@@ -20,9 +20,10 @@ header{
 }
 
 .logo {
-  background-color: aquamarine;
-    width: 75px;
-    height: 75px;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+    width: 45px;
+    height: 45px;
     margin: 10px;
     display: inline-block;
 }
@@ -70,4 +71,11 @@ header{
   
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+  }
+
+  .fondo__body {
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: 100vw;
+    height: 5px;
   }

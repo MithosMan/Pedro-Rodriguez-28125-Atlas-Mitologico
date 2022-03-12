@@ -175,9 +175,10 @@ header div {
 }
 
 .logo {
-  background-color: aquamarine;
-  width: 75px;
-  height: 75px;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  width: 45px;
+  height: 45px;
   margin: 10px;
   display: inline-block;
 }
@@ -227,6 +228,13 @@ header div {
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+.fondo__body {
+  background-color: #ffffff;
+  margin-top: 5px;
+  width: 100vw;
+  height: 5px;
 }
 
 /* Animación para "Recientemente Agregados" en Index */
@@ -284,9 +292,18 @@ header div {
     background-color: none;
     grid-gap: 10px;
   }
+  .index-img {
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+  }
   .index-img1 {
     background-color: #ffffff;
-    background-position: center;
+    background-image: url(../img/e1.jpg);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -296,6 +313,8 @@ header div {
   }
   .index-img2 {
     background-color: #ffffff;
+    background-image: url(../img/b7.jpg);
+    background-position: initial;
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
@@ -305,6 +324,9 @@ header div {
   }
   .index-img3 {
     background-color: #ffffff;
+    background-image: url(../img/b1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
@@ -314,21 +336,13 @@ header div {
   }
   .index-img4 {
     background-color: #ffffff;
-    background-position: center;
+    background-image: url(../img/l2.jpg);
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-column: 4/5;
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1/3;
-  }
-  .index-img {
-    border-radius: 5px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-size: cover;
   }
   .index-img:hover {
     -webkit-transform: scale(1.05);
@@ -373,7 +387,7 @@ header div {
     height: inherit;
     background-size: cover;
     background-position-x: center;
-    margin: 3px;
+    margin: 5px;
     margin-bottom: 30px;
   }
   .contenedor__slide:hover {
@@ -384,18 +398,23 @@ header div {
   }
   .contenedor__slide--new1 {
     background-color: white;
+    background-image: url(../img/banner1.jpg);
   }
   .contenedor__slide--new2 {
     background-color: white;
+    background-image: url(../img/banner2.jpg);
   }
   .contenedor__slide--new3 {
     background-color: white;
+    background-image: url(../img/banner3.jpg);
   }
   .contenedor__slide--new4 {
     background-color: white;
+    background-image: url(../img/banner4.jpg);
   }
   .contenedor__slide--new5 {
     background-color: white;
+    background-image: url(../img/banner5.jpg);
   }
 }
 
@@ -496,7 +515,7 @@ header div {
     height: inherit;
     background-size: cover;
     background-position-x: center;
-    margin: 3px;
+    margin: 5px;
   }
   .contenedor__slide:hover {
     -ms-flex-negative: 0.2;
@@ -527,403 +546,423 @@ header div {
 }
 
 .seccion__img--bestia1 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b1.jpg);
 }
 
 .seccion__img--bestia2 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b2.jpg);
 }
 
 .seccion__img--bestia3 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b3.jpg);
 }
 
 .seccion__img--bestia4 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b4.jpg);
 }
 
 .seccion__img--bestia5 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b5.jpg);
 }
 
 .seccion__img--bestia6 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b6.jpg);
 }
 
 .seccion__img--bestia7 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b7.jpg);
 }
 
 .seccion__img--bestia8 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b8.jpg);
 }
 
 .seccion__img--bestia9 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b9.jpg);
 }
 
 .seccion__img--bestia10 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b10.jpg);
 }
 
 .seccion__img--bestia11 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b11.jpg);
 }
 
 .seccion__img--bestia12 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b12.jpg);
 }
 
 .seccion__img--bestia13 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b13.jpg);
 }
 
 .seccion__img--bestia14 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b14.jpg);
 }
 
 .seccion__img--bestia15 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b15.jpg);
 }
 
 .seccion__img--bestia16 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b16.jpg);
 }
 
 .seccion__img--bestia17 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b17.jpg);
 }
 
 .seccion__img--bestia18 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b18.jpg);
 }
 
 .seccion__img--bestia19 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b19.jpg);
 }
 
 .seccion__img--bestia20 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/b20.jpg);
 }
 
 .seccion__img--obj1 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o1.jpg);
 }
 
 .seccion__img--obj2 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o2.jpg);
 }
 
 .seccion__img--obj3 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o3.jpg);
 }
 
 .seccion__img--obj4 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o4.jpg);
 }
 
 .seccion__img--obj5 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o5.jpg);
 }
 
 .seccion__img--obj6 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o6.jpg);
 }
 
 .seccion__img--obj7 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o7.jpg);
 }
 
 .seccion__img--obj8 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o8.jpg);
 }
 
 .seccion__img--obj9 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o9.jpg);
 }
 
 .seccion__img--obj10 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o10.jpg);
 }
 
 .seccion__img--obj11 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o11.jpg);
 }
 
 .seccion__img--obj12 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o12.jpg);
 }
 
 .seccion__img--obj13 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o13.jpg);
 }
 
 .seccion__img--obj14 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o14.jpg);
 }
 
 .seccion__img--obj15 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o15.jpg);
 }
 
 .seccion__img--obj16 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o16.jpg);
 }
 
 .seccion__img--obj17 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o17.jpg);
 }
 
 .seccion__img--obj18 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o18.jpg);
 }
 
 .seccion__img--obj19 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o19.jpg);
 }
 
 .seccion__img--obj20 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/o20.jpg);
 }
 
 .seccion__img--person1 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p1.jpg);
 }
 
 .seccion__img--person2 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p2.jpg);
 }
 
 .seccion__img--person3 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p3.jpg);
 }
 
 .seccion__img--person4 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p4.jpg);
 }
 
 .seccion__img--person5 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p5.jpg);
 }
 
 .seccion__img--person6 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p6.jpg);
 }
 
 .seccion__img--person7 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p7.jpg);
 }
 
 .seccion__img--person8 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p8.jpg);
 }
 
 .seccion__img--person9 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p9.jpg);
 }
 
 .seccion__img--person10 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p10.jpg);
 }
 
 .seccion__img--person11 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p11.jpg);
 }
 
 .seccion__img--person12 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p12.jpg);
 }
 
 .seccion__img--person13 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p13.jpg);
 }
 
 .seccion__img--person14 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p14.jpg);
 }
 
 .seccion__img--person15 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p15.jpg);
 }
 
 .seccion__img--person16 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p16.jpg);
 }
 
 .seccion__img--person17 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p17.jpg);
 }
 
 .seccion__img--person18 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p18.jpg);
 }
 
 .seccion__img--person19 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p19.jpg);
 }
 
 .seccion__img--person20 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/p20.jpg);
 }
 
 .seccion__img--place1 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l1.jpg);
 }
 
 .seccion__img--place2 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l2.jpg);
 }
 
 .seccion__img--place3 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l3.jpg);
 }
 
 .seccion__img--place4 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l4.jpg);
 }
 
 .seccion__img--place5 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l5.jpg);
 }
 
 .seccion__img--place6 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l6.jpg);
 }
 
 .seccion__img--place7 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l7.jpg);
 }
 
 .seccion__img--place8 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l8.jpg);
 }
 
 .seccion__img--place9 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l9.jpg);
 }
 
 .seccion__img--place10 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l10.jpg);
 }
 
 .seccion__img--place11 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l11.jpg);
 }
 
 .seccion__img--place12 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l12.jpg);
 }
 
 .seccion__img--place13 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l13.jpg);
 }
 
 .seccion__img--place14 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l14.jpg);
 }
 
 .seccion__img--place15 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l15.jpg);
 }
 
 .seccion__img--place16 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l16.jpg);
 }
 
 .seccion__img--place17 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l17.jpg);
 }
 
 .seccion__img--place18 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l18.jpg);
 }
 
 .seccion__img--place19 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l19.jpg);
 }
 
 .seccion__img--place20 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/l20.jpg);
 }
 
 .seccion__img--event1 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e1.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event2 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e2.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event3 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e3.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event4 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e4.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event5 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e5.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event6 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e6.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event7 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e7.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event8 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e8.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event9 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e9.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event10 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e10.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event11 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e11.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event12 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e12.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event13 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e13.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event14 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e14.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event15 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e15.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event16 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e16.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event17 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e17.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event18 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e18.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event19 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e19.jpg);
+  background-size: cover;
 }
 
 .seccion__img--event20 {
-  background-image: url(../img/prox.jpg);
+  background-image: url(../img/e20.jpg);
+  background-size: cover;
 }
 
 .seccion__tarjeta--bestia {
@@ -971,14 +1010,6 @@ header div {
     margin-left: 5px;
     margin-right: 5px;
     padding: 5px;
-  }
-  .event-img1 {
-    border-radius: 5px;
-    background-image: url(../img/heracles.jpg);
-    background-size: cover;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
   }
   .event-text-box {
     -ms-grid-column: 2;
@@ -1033,7 +1064,7 @@ header div {
   .seccion__tarjeta:hover .seccion__oculto {
     position: absolute;
     border-radius: 5px;
-    margin-top: 3px;
+    margin-top: 5px;
     width: 250px;
     height: auto;
     overflow: hidden;
@@ -1189,17 +1220,17 @@ header div {
 
 .contacto--flex .texto__contacto {
   border: 1px solid #000000;
-  border-radius: 3px;
-  margin: 3px;
-  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
   width: 380px;
 }
 
 .contacto--flex form {
   background-color: #e4745d;
-  border-radius: 3px;
-  margin: 3px;
-  padding: 3px;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 5px;
   width: 400px;
   float: none;
   position: -webkit-sticky;
