@@ -50,17 +50,16 @@
     
 .index-img2 {
     background-color: #ffffff;
-    background-image: url(../img/b7.jpg);
-    background-position: initial;
+    background-image: url(../img/b1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     grid-column: 2/4;
     grid-row: 1/2;
 }
     
 .index-img3 {
     background-color: #ffffff;
-    background-image: url(../img/b1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(../img/o1.jpg);
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -125,7 +124,6 @@ $cantidadbanner: 5;
 .contenedor__slide--new1 {
     background-color: rgb(255, 255, 255);
     background-image: url(../img/banner1.jpg);
-    vertical-align: text-bottom;
 }
 
 .contenedor__slide--new2 {
@@ -156,8 +154,8 @@ $cantidadbanner: 5;
         height: 100vw;
         display: grid;
         margin-bottom: 10px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         background-color: none;
         grid-gap: 10px;
         }
@@ -167,39 +165,40 @@ $cantidadbanner: 5;
             font-weight: bold;
             text-align-last: left;
             font-family: sans-serif;
-            background-size: cover;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: center;
         }
         
         .index-img1 {
             background-color: #ffffff;
-            // background-image: url();
-            background-position: center;
+            background-image: url(../img/p2.jpg);
             grid-column: 1/2;
             grid-row: 1/2;
         }
         
         .index-img2 {
             background-color: #ffffff;
-            // background-image: url();
+            background-image: url(../img/b1.jpg);
             grid-column: 1/2;
             grid-row: 2/3;
         }
         
         .index-img3 {
             background-color: #ffffff;
-            // background-image: url();
-            grid-column: 1/2;
-            grid-row: 3/4;
+            background-image: url(../img/o1.jpg);
+            grid-column: 2/3;
+            grid-row: 1/2;
          
         }
         
         .index-img4 {
             background-color: #ffffff;
-            // background-image: url();
-            background-position: center;
+            background-image: url(../img/l2.jpg);
+            background-size: cover;
             text-align: left;
-            grid-column: 1/2;
-            grid-row: 4/5;
+            grid-column: 2/3;
+            grid-row: 2/3;
         }
 
 
@@ -244,28 +243,26 @@ $cantidadbanner: 5;
 }
 
 .contenedor__slide--new1 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+display: none;
 }
 
 .contenedor__slide--new2 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    display: none;
 }
 
 .contenedor__slide--new3 {
-    background-color: brown;
-    background-image: url(../img/C.png);
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/banner3.jpg);
 }
 
 .contenedor__slide--new4 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/banner4.jpg);
 }
 
 .contenedor__slide--new5 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/banner5.jpg);
 }
 
 }

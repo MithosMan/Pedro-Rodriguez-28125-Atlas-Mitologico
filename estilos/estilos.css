@@ -26,11 +26,10 @@ body {
 
 @media only screen and (min-width: 750px) {
   h1 {
-    color: #000000;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "MedievalSharp";
     margin: 10px;
     display: inline;
     -webkit-box-align: center;
@@ -45,7 +44,7 @@ h2 {
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "MedievalSharp";
   margin: 10px;
   margin-top: 30px;
 }
@@ -56,7 +55,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: "MedievalSharp";
     margin: 5px;
     display: inline;
     -webkit-box-align: center;
@@ -80,7 +79,7 @@ h4 {
   text-align-last: center;
   margin: 2px;
   padding: 2px;
-  font-family: sans-serif;
+  font-family: "MedievalSharp";
 }
 
 .neutralizar, .neutralizar a:hover, .neutralizar a:visited, .neutralizar a:link, .neutralizar a:active {
@@ -203,8 +202,8 @@ header div {
 .logo {
   background-image: url(../img/logo.png);
   background-size: cover;
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   margin: 10px;
   display: inline-block;
 }
@@ -336,8 +335,9 @@ header div {
   }
   .index-img2 {
     background-color: #ffffff;
-    background-image: url(../img/b7.jpg);
-    background-position: initial;
+    background-image: url(../img/b1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
@@ -347,9 +347,7 @@ header div {
   }
   .index-img3 {
     background-color: #ffffff;
-    background-image: url(../img/b1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(../img/o1.jpg);
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
@@ -426,7 +424,6 @@ header div {
   .contenedor__slide--new1 {
     background-color: white;
     background-image: url(../img/banner1.jpg);
-    vertical-align: text-bottom;
   }
   .contenedor__slide--new2 {
     background-color: white;
@@ -453,10 +450,10 @@ header div {
     display: -ms-grid;
     display: grid;
     margin-bottom: 10px;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
-    -ms-grid-rows: (1fr)[4];
-        grid-template-rows: repeat(4, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
     background-color: none;
     grid-gap: 10px;
   }
@@ -465,11 +462,13 @@ header div {
     font-weight: bold;
     text-align-last: left;
     font-family: sans-serif;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
   }
   .index-img1 {
     background-color: #ffffff;
-    background-position: center;
+    background-image: url(../img/p2.jpg);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -479,6 +478,7 @@ header div {
   }
   .index-img2 {
     background-color: #ffffff;
+    background-image: url(../img/b1.jpg);
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -488,23 +488,25 @@ header div {
   }
   .index-img3 {
     background-color: #ffffff;
-    -ms-grid-column: 1;
+    background-image: url(../img/o1.jpg);
+    -ms-grid-column: 2;
     -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-row: 3;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
     -ms-grid-row-span: 1;
-    grid-row: 3/4;
+    grid-row: 1/2;
   }
   .index-img4 {
     background-color: #ffffff;
-    background-position: center;
+    background-image: url(../img/l2.jpg);
+    background-size: cover;
     text-align: left;
-    -ms-grid-column: 1;
+    -ms-grid-column: 2;
     -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-row: 4;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    grid-row: 4/5;
+    grid-row: 2/3;
   }
   .fondobanner {
     width: 100vw;
@@ -552,24 +554,22 @@ header div {
             transition-duration: 0.5s;
   }
   .contenedor__slide--new1 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    display: none;
   }
   .contenedor__slide--new2 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    display: none;
   }
   .contenedor__slide--new3 {
-    background-color: brown;
-    background-image: url(../img/C.png);
+    background-color: white;
+    background-image: url(../img/banner3.jpg);
   }
   .contenedor__slide--new4 {
-    background-color: brown;
-    background-image: url(../img/B.png);
+    background-color: white;
+    background-image: url(../img/banner4.jpg);
   }
   .contenedor__slide--new5 {
-    background-color: brown;
-    background-image: url(../img/A.png);
+    background-color: white;
+    background-image: url(../img/banner5.jpg);
   }
 }
 
