@@ -31,13 +31,14 @@
 
 .index-img {
     border-radius: $radius;
+    border: 2px solid $colorA;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
     background-size: cover;
     background-position: center;
-    border: 2px solid $colorA;
+    
 }
 
 .index-img1 {
@@ -150,8 +151,8 @@ $cantidadbanner: 5;
 
 @media only screen and (max-width: 750px) { 
     .index-img-box {
-        width: 100vw;
-        height: 100vw;
+        width: 90vw;
+        height: 90vw;
         display: grid;
         margin-bottom: 10px;
         grid-template-columns: repeat(2, 1fr);
@@ -168,6 +169,8 @@ $cantidadbanner: 5;
             background-size: contain;
             background-repeat: no-repeat;
             background-position-x: center;
+            border-radius: $radius;
+            border: 2px solid $colorA;
         }
         
         .index-img1 {
@@ -235,6 +238,8 @@ $cantidadbanner: 5;
     background-size: cover;
     background-position-x: center;
     margin: $space;
+    border-radius: $radius;
+    border: 2px solid $colorA;
 }
 
 .contenedor__slide:hover {

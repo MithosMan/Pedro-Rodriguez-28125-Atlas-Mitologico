@@ -315,13 +315,13 @@ header div {
   }
   .index-img {
     border-radius: 5px;
+    border: 2px solid #6c020daf;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
     background-size: cover;
     background-position: center;
-    border: 2px solid #6c020daf;
   }
   .index-img1 {
     background-color: #ffffff;
@@ -445,8 +445,8 @@ header div {
 
 @media only screen and (max-width: 750px) {
   .index-img-box {
-    width: 100vw;
-    height: 100vw;
+    width: 90vw;
+    height: 90vw;
     display: -ms-grid;
     display: grid;
     margin-bottom: 10px;
@@ -465,6 +465,8 @@ header div {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
+    border-radius: 5px;
+    border: 2px solid #6c020daf;
   }
   .index-img1 {
     background-color: #ffffff;
@@ -546,6 +548,8 @@ header div {
     background-size: cover;
     background-position-x: center;
     margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #6c020daf;
   }
   .contenedor__slide:hover {
     -ms-flex-negative: 0.2;
