@@ -87,7 +87,7 @@ h4 {
 }
 
 .neutralizar2 {
-    color: $colorD;
+    color: $colorC;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -110,3 +110,20 @@ h4 {
 .neutralizar2 a:active {
     @extend .neutralizar2;
 }
+
+
+@media only screen and (max-width: 400px) { 
+.resolucionchica {
+    width: 100vw;
+    height: 100vh;
+    background-color: $colorC;
+    z-index: 5;
+    font-family: $font-h1;
+}
+}
+
+@media only screen and (min-width: 400px) { 
+    .resolucionchica {
+     display: none;
+    }
+    }

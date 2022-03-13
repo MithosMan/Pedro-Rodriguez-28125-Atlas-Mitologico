@@ -128,10 +128,6 @@ $secciones: (
     }
 }
 
-$secciones: (
-    bestia: rgba(130, 149, 255, 0.959),
-    obj: rgb(214, 179, 126),
-);
 }
 
 @media only screen and (max-width: 750px) {
@@ -156,12 +152,7 @@ $secciones: (
         }
         
         .event-img1 {
-        width: 80vw;
-        height: 60vw;
-        border-radius: $radius;
-        background-image: url(../img/heracles.jpg);
-        background-size: cover;
-        
+        display: none;        
         }
         
         .event-text {
@@ -177,62 +168,60 @@ $secciones: (
         }
     
     // Bestiario y Artefactos
-    
-    .seccion {
-        width: 80vw;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    
-    .seccion__img {
-        border-radius: $radius;
-        height: 180px;
-        background-size: cover;
-        align-items: inherit;
-    }
 
-    .seccion__tarjeta:hover {
-        .seccion__oculto {
-            position: absolute;
-            border-radius: $radius;
-            margin-top: 10px;
-            width: inherit;
-            height: auto;
-            overflow: hidden;
-            background-color: rgb(230, 230, 230);
-            transform: translate(-205px, 180px);
-            p {
-                padding: 5px;
-                text-align: center;
-                border-top: 1px solid rgb(82, 81, 81);
-            }
-    
-        } 
-    }
-    
-    .seccion__tarjeta {
-        border-radius: $radius;
-        margin-top: 10px;
-        width: inherit;
-        height: 205px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 5px;
-        overflow: hidden;
-        h3 {
-            height: 20px;
-            text-align: center;
-            padding: 3px;
-        }
-    }
-   
+.seccion {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
 .seccion__img {
     border-radius: $radius;
     height: 180px;
+    width: 180px;
     background-size: cover;
     align-items: inherit;
 }
+
+.seccion__tarjeta:hover {
+    .seccion__oculto {
+        position: absolute;
+        border-radius: $radius;
+        margin-top: $space;
+        width: 220px;
+        height: auto;
+        overflow: hidden;
+        background-color: beige;
+        transform: translate(0, 230px);
+        p {
+            padding: $space;
+            text-align: center;
+            border-top: 1px solid rgb(82, 81, 81);
+        }
+
+    } 
+}
+
+.seccion__tarjeta {
+    border-radius: $radius;
+    margin-top: 10px;
+    width: 180px;
+    height: 225px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h3 {
+        height: 40px;
+        text-align: center;
+        padding: 3px;
+    }
+}
+
 }

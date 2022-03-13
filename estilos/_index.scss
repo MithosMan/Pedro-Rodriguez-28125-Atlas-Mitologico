@@ -109,12 +109,18 @@ $cantidadbanner: 5;
     height: inherit;
     background-size: cover;
     background-position-x: center;
-    margin: $space;
+    margin-left: $space;
+    margin-right: $space;
     margin-bottom: 30px;
     border: 2px solid $colorA;
-    a p{
-        color: $colorB;
-    }
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contraste {
+    background-color: rgba(0, 0, 0, 0.747);
+    padding-top: 5px;
 }
 
 .contenedor__slide:hover {
@@ -207,7 +213,7 @@ $cantidadbanner: 5;
 
 // Banner de Novedades
 
-$anchobanner: 90vw;
+$anchobanner: 80vw;
 $altobanner: $anchobanner/2.5;
 $cantidadbanner: 5;
 
@@ -232,14 +238,18 @@ $cantidadbanner: 5;
 
 .contenedor__slide {
     transform: skewX(-15deg);
-    width: $altobanner*1.8;
+    width: $altobanner;
     border-radius: $radius;
     height: inherit;
     background-size: cover;
     background-position-x: center;
-    margin: $space;
+    margin-left: $space;
+    margin-right: $space;
     border-radius: $radius;
     border: 2px solid $colorA;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .contenedor__slide:hover {
@@ -268,6 +278,11 @@ display: none;
 .contenedor__slide--new5 {
     background-color: rgb(255, 255, 255);
     background-image: url(../img/banner5.jpg);
+}
+
+.contraste {
+    background-color: rgba(0, 0, 0, 0.747);
+    padding-top: 5px;
 }
 
 }
