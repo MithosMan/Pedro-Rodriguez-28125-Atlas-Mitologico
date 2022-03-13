@@ -453,6 +453,8 @@ header div {
   .contraste {
     background-color: rgba(0, 0, 0, 0.747);
     padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
   }
   .contenedor__slide:hover {
     -ms-flex-negative: 0.2;
@@ -627,6 +629,8 @@ header div {
   .contraste {
     background-color: rgba(0, 0, 0, 0.747);
     padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
   }
 }
 
