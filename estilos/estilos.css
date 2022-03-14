@@ -453,6 +453,7 @@ header div {
   .contraste {
     background-color: rgba(0, 0, 0, 0.747);
     padding-top: 5px;
+    margin: 3px;
     border-radius: 5px;
     text-align: center;
   }
@@ -630,6 +631,8 @@ header div {
     background-color: rgba(0, 0, 0, 0.747);
     padding-top: 5px;
     border-radius: 5px;
+    margin: 3px;
+    padding: auto;
     text-align: center;
   }
 }
@@ -1145,6 +1148,7 @@ header div {
   .seccion__img {
     border-radius: 5px;
     height: 180px;
+    width: 180px;
     background-size: cover;
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
@@ -1158,6 +1162,8 @@ header div {
     height: auto;
     overflow: hidden;
     background-color: beige;
+    -webkit-transform: translate(0, 230px);
+            transform: translate(0, 230px);
   }
   .seccion__tarjeta:hover .seccion__oculto p {
     padding: 5px;
@@ -1173,6 +1179,14 @@ header div {
     margin-right: 5px;
     padding: 5px;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .seccion__tarjeta h3 {
     height: 40px;
@@ -1257,7 +1271,7 @@ header div {
     position: absolute;
     border-radius: 5px;
     margin-top: 5px;
-    width: 220px;
+    width: 250px;
     height: auto;
     overflow: hidden;
     background-color: beige;

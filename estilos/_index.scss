@@ -121,6 +121,7 @@ $cantidadbanner: 5;
 .contraste {
     background-color: rgba(0, 0, 0, 0.747);
     padding-top: 5px;
+    margin: 3px;
     border-radius: $radius;
     text-align: center;
 }
@@ -286,6 +287,8 @@ display: none;
     background-color: rgba(0, 0, 0, 0.747);
     padding-top: 5px;
     border-radius: $radius;
+    margin: 3px;
+    padding: auto;
     text-align: center;
 }
 
